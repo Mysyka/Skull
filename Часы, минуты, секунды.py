@@ -19,4 +19,13 @@ if s == 1:
     S = S + 'а'
 if 2 <= s <= 4:
     S = S + 'ы'
-print(h, H, m, M, s, S)
+
+if h == 0:
+    print(m, M, s, S);
+
+if m == 0:
+    print(h, H, s, S);
+
+if s == 0:
+    print(h, H, m, M);
+
