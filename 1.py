@@ -18,7 +18,7 @@ for i in range(100):
     )
 
 
-#print(requests.get('http://yandex.ru').status_code)
+print(requests.get('http://yandex.ru').status_code)
 #get_stat = requests.get(url['url0']).status_code
 
 #r = requests.get(url0)
